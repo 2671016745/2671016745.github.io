@@ -272,12 +272,6 @@
             <button class="btn" onclick="openModal('modal-clinic')">查看详情</button>
         </div>
 
-        <!-- 麦晨风财务总结插件 -->
-        <div class="plugin-card">
-            <h2>麦晨风财务总结插件</h2>
-            <button class="btn" onclick="openModal('modal-expenses')">查看详情</button>
-        </div>
-
         <!-- 智能提醒插件 -->
         <div class="plugin-card">
             <h2>⏰ 智能提醒插件</h2>
@@ -787,34 +781,6 @@
                 </ul>
             </div>
             <button class="btn btn-back" onclick="closeModal('modal-clinic')">返回</button>
-        </div>
-    </div>
-
-    <!-- 麦晨风财务总结插件详情弹窗 -->
-    <div id="modal-expenses" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">麦晨风财务总结插件(Expenses Summary)</h3>
-            </div>
-            <div class="modal-body">
-                <h3>触发方式</h3>
-                <h4>Command（指令触发）</h4>
-                <ul>
-                    <li><code>/expenses</code>        # 立即发送今日财报</li>
-                </ul>
-
-                <h4>Action（关键词触发）</h4>
-                <ul>
-                    <li>需要发送今日财务总结时</li>
-                    <li>有人让你咬牙切齿时</li>
-                    <li>有人让你模仿户晨风不可能不交时</li>
-                    <li>有人让你公开收入时</li>
-                </ul>
-
-                <h4>自动发送</h4>
-                <p>在 config.toml 中配置后，麦麦会每天定时将财报自动推送到私聊和群聊中。</p>
-            </div>
-            <button class="btn btn-back" onclick="closeModal('modal-expenses')">返回</button>
         </div>
     </div>
 
